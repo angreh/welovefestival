@@ -17,3 +17,6 @@ Route::get('/', function () {
 Route::get('piola', function(){
     exit('weeeeeeeeeeeee testando o git');
 });
+Route::get('vartest', ['as' => 'vartest','uses' => 'FestivalController@vartest']);
+Route::get('looptest', ['as'=> 'looptest', 'uses' => 'FestivalController@looptest']);
+Route::resource('festival', 'FestivalController');
