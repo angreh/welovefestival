@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('piola', function(){
-    exit('weeeeeeeeeeeee');
+    exit('weeeeeeeeeeeee testando o git');
 });
